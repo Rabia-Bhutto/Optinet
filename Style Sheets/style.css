@@ -1,0 +1,298 @@
+/* Regular Font */
+@font-face {
+    font-family: grotesk-reg;
+    src: url('../Fonts/SpaceGrotesk-Regular.ttf');
+}
+
+/* Bold Font */
+@font-face {
+    font-family: grotesk-bold;
+    src: url('../Fonts/SpaceGrotesk-Bold.ttf');
+}
+
+/* Universal Selector */
+*
+{
+    /* border: 1px solid red; */
+    font-family: grotesk-reg !important;
+}
+
+/* Applying styling on the whole body */
+body
+{
+    background-color: black !important;
+}
+
+/* NAVIGATION BAR */
+
+/* Nav Bar */
+.css-nav-bar
+{
+    background-color: transparent !important;
+}
+
+/* Button of the Nav Bar */
+.btn-bg
+{
+    background-image: linear-gradient(16.19deg, #40DB5C, #03C7FD, #40DB5C) !important;
+}
+
+.hover-effect:hover
+{
+    color: black !important;
+}
+
+/* HERO SECTION */
+
+.hero
+{
+    height: 1320px;
+}
+
+/* Div under the "Card Image Overlay" Div */
+.sub-overlay-div
+{ 
+    height: 508px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgba(10,10,10,1), rgba(10,10,10,0));
+}
+
+/* MEDIA QUERY TO TARGET MEDIUM SCREEN DEVICES */
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+    .hero
+    {
+        height: 890px;
+    }
+
+    /* Div under the "Card Image Overlay" Div */
+    .sub-overlay-div
+    {
+        height: 340px !important;
+    }
+}
+
+/* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
+@media screen and (min-width: 576px) and (max-width:767px)
+{
+
+    .hero
+    {
+        height: 590px;
+    }
+
+    /* Div under the "Card Image Overlay" Div */
+    .sub-overlay-div
+    {
+        height: 218px !important;
+    }
+}
+
+/* MEDIA QUERY TO TARGET EXTRA SMALL SCREEN DEVICES */
+@media screen and (max-width:575px)
+{
+
+}
+
+/* SECTION # 01 */
+
+/* Background of the button in the Unorderd List */
+.btn-black
+{
+    background-color: black !important;
+    height: 60px;
+    width: 200px;
+}
+
+/* SECTION# 02 */
+
+/* To target the whole section */
+.sec2
+{
+    height: 500px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* First Button */
+.btn-1
+{
+    background-image: linear-gradient(16.19deg, #40DB5C, #03C7FD, #40DB5C) !important;
+    height: 60px;
+    width: 200px;
+}
+
+/* Peudo Class on the First Button */
+.btn-1:hover
+{
+    background-color: transparent !important;
+    border: 1px solid white !important;
+    background-image: none !important;
+}
+
+/* Second Button */
+.btn-2
+{
+    background-color: transparent;
+    border: 1px solid white !important;
+    height: 60px;
+    width: 200px;
+}
+
+/* Peudo Class on the Second Button */
+.btn-2:hover
+{
+    background-image: linear-gradient(16.19deg, #40DB5C, #03C7FD, #40DB5C) !important;
+    border: none !important;
+}
+
+/* SECTION# 03 */
+
+/* Third Button */
+/* .btn-3
+{
+    background-color: transparent;
+    border: 1px solid black!important;
+    height: 60px;
+    width: 200px;
+} */
+
+/* Peudo Class on the Second Button */
+/* .btn-3:hover
+{
+    background-image: linear-gradient(16.19deg, #40DB5C, #03C7FD, #40DB5C) !important;
+    border: none !important;
+} */
+
+
+/* SECTION# 04 */
+
+.sec4
+{
+    background-color: white !important;
+}
+
+.img-icon
+{
+    width: 150px !important;
+    height: 30px !important;
+}
+
+.img-icon-1
+{
+    width: 150px !important;
+    height: 100px !important;
+}
+
+.img-icon-5
+{
+    width: 80px !important;
+    height: 30px !important;
+}
+
+.img-icon-6
+{
+    width: 80px !important;
+    height: 30px !important;
+}
+
+.img-icon-7
+{
+    width: 150px !important;
+    height: 100px !important;
+}
+
+.fs
+{
+    font-size: 89px;
+}
+
+/* MEDIA QUERY TO TARGET MEDIUM SCREEN DEVICES */
+@media screen and (min-width: 768px) and (max-width:991px)
+{
+    .img-icon
+{
+    width: 100px !important;
+    height: 20px !important;
+}
+
+.img-icon-1
+{
+    width: 100px !important;
+    height: 50px !important;
+}
+
+.img-icon-5
+{
+    width: 80px !important;
+    height: 20px !important;
+}
+
+.img-icon-6
+{
+    width: 80px !important;
+    height: 20px !important;
+}
+
+.img-icon-7
+{
+    width: 100px !important;
+    height: 50px !important;
+}
+
+}
+
+/* MEDIA QUERY TO TARGET SMALL SCREEN DEVICES */
+@media screen and (min-width: 576px) and (max-width:767px)
+{
+    .img-icon
+{
+    width: 50px !important;
+    height: 20px !important;
+}
+
+.img-icon-1
+{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.img-icon-5
+{
+    width: 40px !important;
+    height: 20px !important;
+}
+
+.img-icon-6
+{
+    width: 40px !important;
+    height: 20px !important;
+}
+
+.img-icon-7
+{
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.fs
+{
+    font-size: 60px;
+}
+
+}
+
+/* FOOTER */
+
+footer
+{
+    background-image: url('../Images/footer-bg.png');
+}
+
+.border-t
+{
+    border-top: 1px solid grey;
+}
